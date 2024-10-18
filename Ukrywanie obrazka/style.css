@@ -1,0 +1,43 @@
+body {
+  background-color: black;
+  margin: 0;
+}
+
+.item1 {
+  height: 0px;
+  width: 900px;
+  margin: auto;
+  background-image: url("https://cdn.pixabay.com/photo/2019/06/07/10/44/sunset-4257963_960_720.jpg");
+  transition: 2s;
+}
+
+.hide {
+  height: 500px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+button {
+  padding: 10px 30px;
+  background: none;
+  border: 2px solid #00cfff;
+  border-radius: 5px;
+  color: #00cfff;
+  font-size: 36px;
+  cursor: pointer;
+  transition: color 0.3s, box-shadow 0.3s;
+  box-shadow: 3px 3px 10px #00cfff;
+}
+
+button:hover {
+  color: #00ffae;
+  box-shadow: 3px 3px 10px #00ffae;
+}
+
+.fas {
+  transition: transform 2s;
+}
